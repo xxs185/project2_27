@@ -1,0 +1,22 @@
+{
+  "input_csv": "../data/sample/demo_geodata.csv",
+  "cluster_csv": "../outputs/demo_clustering/best_cluster_assignments.csv",
+  "output_dir": "../outputs/demo_model_compare",
+  "feature_cols": [
+    "特征1",
+    "特征2",
+    "特征3",
+    "特征4",
+    "特征5",
+    "特征6",
+    "特征7",
+    "特征8",
+    "特征9",
+    "特征10"
+  ],
+  "target_col": "cluster_target",
+  "join_col": "单元编号",
+  "test_size": 0.2,
+  "random_state": 42,
+  "n_jobs": -1
+}

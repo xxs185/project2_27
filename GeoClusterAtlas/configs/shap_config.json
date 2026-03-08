@@ -1,0 +1,12 @@
+{
+  "input_csv": "../data/sample/demo_geodata.csv",
+  "cluster_csv": "../outputs/demo_clustering/best_cluster_assignments.csv",
+  "model_bundle": "../outputs/demo_model_compare/best_model_bundle.joblib",
+  "output_dir": "../outputs/demo_shap",
+  "target_col": "cluster_target",
+  "join_col": "单元编号",
+  "use_all_samples": true,
+  "shap_sample_size": 0,
+  "background_size": 100,
+  "interaction_features": []
+}
